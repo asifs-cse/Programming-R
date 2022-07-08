@@ -4,4 +4,4 @@ num2 =1.5
 nums = c(10,20,30,40,50,60)
 print(ls())
 print("Details of the objet in memeory")
-print(ls.str)
+print(ls.str())
