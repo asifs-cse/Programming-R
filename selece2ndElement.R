@@ -1,0 +1,6 @@
+values_list = list(list(1,3),list(2,5),list(6,7))
+print("Original nested list is: ")
+print(values_list)
+rslt_lst =lapply(values_list, '[[',2)
+print("Second element of the nensted list is: ")
+print(rslt_lst)
